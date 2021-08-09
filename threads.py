@@ -26,7 +26,7 @@ def covertingfile():
     clip = video2.without_audio()
     clip.write_videofile("video/converted.mp4")
 
-
+#defining threads
 def main():
     covertingfile()
     reducequality()
