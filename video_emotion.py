@@ -10,7 +10,7 @@ import openpyxl
 import glob
 
 
-#Function to run the video and write emotion on excel sheet
+#Function to run the video and write emotion an excel sheet
 def run_video():
     #Loading Model files
     path = "./data/video/"
