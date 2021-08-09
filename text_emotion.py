@@ -14,7 +14,7 @@ import glob
 
 
 
-# Misspelled data
+# Misspelled data correction
 a_file=open("./data/text/aspell.pkl","rb")
 miss_corr = pickle.load(a_file)
 
