@@ -10,6 +10,7 @@ import urllib.request
 import threads 
 import remove
 
+#Connecting to twitter
 class StdOutListener(StreamListener):
     def on_data(self,data):
         clean_data = json.loads(data)
